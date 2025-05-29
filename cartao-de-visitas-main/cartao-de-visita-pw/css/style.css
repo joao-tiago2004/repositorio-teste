@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'MinecraftFont';
+    src: url("../font/minecraft_font.woff") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../img/pkemon.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;         
+    width: 100%;                                 
+    overflow: hidden;
+    font-family: 'MinecraftFont', sans-serif;
+}
+
+.bordas {
+    background-color: rgb(143, 186, 224);
+    border: 5px solid black;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 300px 400px 400px 800px;
+    padding: 0px 30px 30px 30px;
+    width: 400px;
+    height: 280px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.topo {
+    text-align: center;
+    
+}
+
+img, p{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.info {
+    text-align: left;
+    padding: 5px;
+    gap: 10px; 
+}
+
+a{
+    text-decoration: none;
+}
